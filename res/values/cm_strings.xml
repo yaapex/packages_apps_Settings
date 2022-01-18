@@ -291,4 +291,10 @@
     <!-- Double tap to sleep on status bar -->
     <string name="double_tap_status_bar_to_sleep_title">Tap to sleep status bar</string>
     <string name="double_tap_status_bar_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+
+    <!-- Icon pack -->
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 </resources>
