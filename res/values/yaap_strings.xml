@@ -841,4 +841,8 @@
 
     <!-- Ramping ringer page title -->
     <string name="ramping_ringer_title">Ramping ringer</string>
+
+    <!-- Ignore window secure flags -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove restrictions on screenshots and screen recordings for all applications, potentially risking privacy leaks</string>
 </resources>
