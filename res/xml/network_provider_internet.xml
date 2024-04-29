@@ -131,4 +131,12 @@
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:order="40"
         android:fragment="com.android.settings.lineage.fragments.WifiIcons"/>
+
+    <Preference
+        android:key="network_traffic_settings"
+        android:icon="@drawable/ic_network_traffic"
+        android:title="@string/status_bar_network_traffic_settings_title"
+        android:summary="@string/status_bar_network_traffic_settings_summary"
+        android:order="45"
+        android:fragment="com.android.settings.lineage.fragments.NetworkTrafficSettings" />
 </PreferenceScreen>
