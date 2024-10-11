@@ -50,6 +50,15 @@
         android:key="top_level_personalize_category"
         android:layout="@layout/settingslib_preference_category_no_title">
         <com.android.settings.widget.HomepagePreference
+            android:fragment="com.custom.settings.PersonalizationsFragment"
+            android:icon="@drawable/ic_special_settings"
+            android:key="top_level_personalizations"
+            android:order="-63"
+            android:title="@string/custom_settings_title"
+            android:summary="@string/custom_settings_summary"
+            settings:controller="com.custom.settings.TopLevelSettingsPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.DisplaySettings"
             android:icon="@drawable/ic_settings_display_filled"
             android:key="top_level_display"
