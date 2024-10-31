@@ -224,4 +224,9 @@
 
     <!-- Connected displays -->
     <color name="display_topology_background_color">@color/settingslib_color_grey100</color>
+
+    <!-- Search bar-->
+    <color name="user_crd_bg">@color/settingslib_preference_bg_color</color>
+    <color name="search_bar_bg">@*android:color/system_neutral1_800</color>
+    <color name="top_level_preference_text_color_primary">@color/search_bar_bg</color>
 </resources>
