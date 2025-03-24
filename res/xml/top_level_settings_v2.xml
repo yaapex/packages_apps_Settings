@@ -253,7 +253,7 @@
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.system.SystemDashboardFragment"
-            android:icon="@drawable/ic_settings_about_device_filled"
+            android:icon="@drawable/ic_settings_system_dashboard_filled"
             android:key="top_level_system"
             android:order="-20"
             android:title="@string/header_category_system"
