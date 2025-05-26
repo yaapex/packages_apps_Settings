@@ -287,4 +287,8 @@
     <!-- Idle manager -->
     <string name="idle_manager_title">Idle manager</string>
     <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
+    <!-- Double tap to sleep on status bar -->
+    <string name="double_tap_status_bar_to_sleep_title">Tap to sleep status bar</string>
+    <string name="double_tap_status_bar_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
 </resources>
