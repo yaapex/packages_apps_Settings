@@ -53,10 +53,19 @@
             android:fragment="com.custom.settings.PersonalizationsFragment"
             android:icon="@drawable/ic_special_settings"
             android:key="top_level_personalizations"
-            android:order="-63"
+            android:order="-64"
             android:title="@string/custom_settings_title"
             android:summary="@string/custom_settings_summary"
             settings:controller="com.custom.settings.TopLevelSettingsPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+            android:icon="@drawable/ic_homepage_lockscreen"
+            android:key="top_level_lockscreen"
+            android:order="-63"
+            android:title="@string/lockscreen_settings_title"
+            android:summary="@string/lockscreen_settings_summary"
+            settings:highlightableMenuKey="top_level_lockscreen"/>
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.DisplaySettings"
