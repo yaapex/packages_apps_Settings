@@ -840,4 +840,15 @@
     <string name="hide_app_list_visible">Apps visible to other user apps</string>
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
+
+    <!-- misc [just to compile] -->
+    <string name="app_lock_auth_title">Re-enter your pin</string>
+    <string name="app_lock_auth_subtitle">Enter your pin to continue</string>
+    <string name="fragment_title">Settings</string>
+    <string name="authentication_description">Use your device credentials to access this feature</string>
+    <string name="selected_category_title">Selected</string>
+    <string name="unselected_category_title">Unselected</string>
+    <string name="no_selected_apps">No selected apps</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>

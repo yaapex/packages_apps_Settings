@@ -361,4 +361,8 @@
         <item>com.android.webview</item>
         <item>com.google.android.webview</item>
     </string-array>
+
+    <string-array name="nt_app_lock_exclude_list">
+        <item>com.android.settings</item>
+    </string-array>
 </resources>
