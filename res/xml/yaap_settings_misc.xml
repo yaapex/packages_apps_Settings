@@ -37,6 +37,13 @@
         android:title="@string/cert_overlay_title"
         android:summary="@string/cert_overlay_summary" />
 
+    <!-- Strong integrity toggle -->
+    <com.yasp.settings.preferences.SecureSettingSwitchPreference
+        android:key="gms_cert_chain"
+        android:title="@string/gms_cert_chain_title"
+        android:summary="@string/gms_cert_chain_summary"
+        android:defaultValue="false" />
+
     <!-- Unlimited google photos storage -->
     <com.yasp.settings.preferences.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.gphotos"
