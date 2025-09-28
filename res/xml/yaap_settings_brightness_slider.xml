@@ -19,13 +19,13 @@
         android:key="qs_show_brightness"
         android:title="@string/qs_show_brightness_title" />
 
-    <com.yasp.settings.preferences.SecureSettingSwitchPreference
+    <com.yasp.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_brightness_position_bottom"
         android:title="@string/qs_brightness_position_bottom_title"
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false" />
 
-    <com.yasp.settings.preferences.SecureSettingSwitchPreference
+    <com.yasp.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_show_auto_brightness_button"
         android:title="@string/qs_show_auto_brightness_title"
         android:summary="@string/qs_show_auto_brightness_summary"
