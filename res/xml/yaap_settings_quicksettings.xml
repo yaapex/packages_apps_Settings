@@ -21,7 +21,7 @@
     <!-- QS brightness slider -->
     <com.yasp.settings.preferences.SecureSettingMasterSwitchPreference
         android:key="qs_show_brightness"
-        android:title="@string/qs_show_brightness_title"
+        android:title="@string/qs_brightness_title"
         android:summary="@string/qs_show_brightness_summary"
         android:fragment="com.android.settings.system.BrightnessSliderSettings"
         android:defaultValue="true" />
