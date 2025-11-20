@@ -852,4 +852,8 @@
     <!-- Multi Audio Focus -->
     <string name="multi_audio_focus_title">Multi audio focus</string>
     <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
+
+    <!-- Vbmeta hash attestation -->
+    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
+    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
 </resources>
