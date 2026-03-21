@@ -53,7 +53,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.preference.UtilsKt;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.crdroid.settings.preferences.SystemSettingSwitchPreference;
+import com.yasp.settings.preferences.SystemSettingSwitchPreference;
 
 import org.jetbrains.annotations.NotNull;
 
