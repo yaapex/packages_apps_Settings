@@ -31,7 +31,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.provider.Settings;
 import android.util.ArraySet;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -137,8 +136,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
                         KEY_WEATHER_PROVIDER, value);
                 weatherProvider.setSummary(weatherProvider.getEntries()[value]);
                 updateWeatherEnablement(value);
-                final int toastResId = R.string.lockscreen_weather_provider_toast;
-                Toast.makeText(getContext(), toastResId, Toast.LENGTH_LONG).show();
                 return true;
             }
         });
