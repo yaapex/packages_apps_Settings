@@ -58,7 +58,7 @@ import com.android.internal.util.ArrayUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.custom.preference.CustomDialogPreference;
-import com.android.settings.custom.preference.SystemSettingSwitchPreference;
+import com.yasp.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.custom.utils.ResourceUtils;
 import com.android.settings.custom.utils.SettingsHelper;
 import com.android.settings.search.BaseSearchIndexProvider;

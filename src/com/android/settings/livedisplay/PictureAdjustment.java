@@ -24,6 +24,7 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.util.Range;
 import android.view.View;
+import android.view.View.BaseSavedState;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
