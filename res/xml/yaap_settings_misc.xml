@@ -64,10 +64,4 @@
         android:summary="@string/no_storage_restrict_summary"
         android:defaultValue="false"/>
 
-    <com.yasp.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.vbmeta.update"
-        android:title="@string/vbmeta_attestation_title"
-        android:summary="@string/vbmeta_attestation_summary"
-        android:defaultValue="true" />
-
 </PreferenceScreen>

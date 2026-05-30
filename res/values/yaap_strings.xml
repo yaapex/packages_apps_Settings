@@ -855,10 +855,6 @@
     <string name="multi_audio_focus_title">Multi audio focus</string>
     <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
 
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
-    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
-
     <!-- New battery text only mode -->
     <string name="battery_text_only_title">Text only</string>
     <string name="battery_text_only_summary">Show percentage text instead of the battery icon</string>
