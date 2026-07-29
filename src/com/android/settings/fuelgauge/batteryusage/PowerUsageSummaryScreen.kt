@@ -22,7 +22,6 @@ import com.android.settings.R
 import com.android.settings.Settings.PowerUsageSummaryActivity
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.display.BatteryPercentageSwitchPreference
-import com.android.settings.display.BatteryTextOnlySwitchPreference
 import com.android.settings.flags.Flags
 import com.android.settings.fuelgauge.BatteryHeaderPreference
 import com.android.settings.utils.makeLaunchIntent
@@ -79,7 +78,6 @@ open class PowerUsageSummaryScreen :
                 }
             }
             +UntitledPreferenceCategoryMetadata("percentage_category") += {
-                +BatteryTextOnlySwitchPreference()
                 +BatteryPercentageSwitchPreference()
             }
         }
